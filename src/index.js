@@ -8,3 +8,9 @@ document.getElementById("app").innerHTML = `
   <a href="https://parceljs.org" target="_blank" rel="noopener noreferrer">here</a>.
 </div>
 `;
+
+const colores = ["azul", "verde", "rojo"];
+
+colores.forEach(function (e, index) {
+  console.log(`<li id="${index}">${e}</li>`);
+});
